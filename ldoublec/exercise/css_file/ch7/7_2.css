@@ -1,0 +1,24 @@
+a:link {
+    color: slategray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+li.li1 {
+    font-family: 楷体, Consolas, mononoki, 'Courier New', monospace;
+    font-size: 150%;
+}

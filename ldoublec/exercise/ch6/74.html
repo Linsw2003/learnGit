@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像</title>
+    <style type="text/css">
+        img {
+            width: 11%;
+            /* height: 20%; */
+            /* 只需设置一个width即可 */
+        }
+
+        hr {
+            width: 90%;
+            background-color: blanchedalmond;
+            /* border-color: blanchedalmond; */
+            /* size: 15px; */
+            height: 8px;
+            border: 0ch;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        font {
+            color: coral;
+            font-family: 仿宋;
+            font-size: 170%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        <font>
+            img基本属性
+        </font>
+    </h2>
+    <hr>
+    <ul type="none">
+        <li>
+            <img src="../../picture/logo.jpg" alt="1">
+            <p>
+                图像加载失败时替代文本alt出现在图像位置上
+            </p><br><br>
+        </li>
+        <li><img src="../../picture/logo.jpg" name="2"></li>
+        <li><img src="../../picture/logo.jpg" title="3"></li>
+        <li><img src="../../picture/logo.jpg" border="50"></li>
+
+        <li><img src="../../picture/logo.jpg" hspace="50"></li>
+        <li><img src="../../picture/logo.jpg" vspace="50"></li>
+        <li>
+            <p> hvspace均以像素为单位,但不需要加上px,否则无效</p>
+        </li>
+
+        <li>
+            <p>
+                align_top
+                <img src="../../picture/logo.jpg" align="top">
+            </p>
+        </li>
+        <li>
+            <p>
+                align_middle
+                <img src="../../picture/logo.jpg" align="middle">
+            </p>
+        </li>
+        <li>
+            <p>
+                align_bottom
+                <img src="../../picture/logo.jpg" align="bottom">
+            </p>
+        </li>
+        <li>
+            <p>
+                align_leftalign_leftalign_leftalign_left
+                <img src="../../picture/logo.jpg" align="left">
+            </p>
+        </li>
+        <li>
+            <p>
+                align_center
+                <img src="../../picture/logo.jpg" align="center">
+            </p>
+        </li>
+        <li>
+            <p>
+                align_rightalign_rightalign_rightalign_rightalign_rightalign_right
+                <img src="../../picture/logo.jpg" align="right">
+            </p>
+        </li>
+    </ul>
+    <p>
+        align_bottom
+        <img src="../../picture/logo.jpg" align="bottom">
+    </p>
+
+    <h2>
+        <font>
+            图片居中法1(p段落)
+        </font>
+    </h2>
+    <hr>
+    <p align="center">
+        <img src="../../picture/logo.jpg">
+    </p>
+
+    <h2>
+        <font>
+            图像热区链接
+        </font>
+    </h2>
+    <hr>
+    <p align="center">
+        <img src="../../picture/logo.jpg" usemap="#a1">
+        <map name="a1" id="a1">
+            <area shape="circle" coords="100%,100%,50%" href="http://www.baidu.com" target="_blank">
+        </map>
+
+        <img src="../../picture/logo.jpg" usemap="#a2">
+        <map name="a2" id="a2">
+            <area shape="rect" coords="0,0,100%,100%" href="http://www.baidu.com" target="_blank">
+        </map>
+    </p>
+</body>
+
+</html>

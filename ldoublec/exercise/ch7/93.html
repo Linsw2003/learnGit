@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器演示</title>
+    <style type="text/css">
+        h1 {
+            background: #9999cc;
+            color: white;
+            padding: 2%;
+            /*10px;*/
+            /* height: 50px; */
+            text-align: center;
+        }
+
+        a:link {
+            color: slategray;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        p:first-letter {
+            font-weight: bold;
+            font-family: "黑体";
+        }
+
+        p:first-line {
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        在支持CSS的浏览器中,链接的不同状态都可以不同的方式显示,这些状态包括:活动状态,已被访问状态,未被访问状态和鼠标悬停状态<br>
+        注意:a:hover必须被置于a:link和a:visited之后,才是有效的。a:active必须被置于a:hover之后,才是有效的。
+    </p>
+    <a href="http://www.baidu.com" target="_blank">
+        搜索一下：百度
+    </a>
+</body>
+
+</html>

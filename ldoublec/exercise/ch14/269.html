@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>调用外部JS文件的JavaScript函数</title>
+    <script type="text/javascript" src="../js_file/ch14/267.js">
+        document.write("这句话被忽略掉了!");
+    </script>
+    <script type="text/javascript" src="../js_file/ch14/268.js"></script>
+</head>
+
+<body>
+    <form>
+        <input name="btnCallJS" type="button" onclick="message();" value="调用外部JS文件的JavaScript函数">
+    </form>
+</body>
+
+</html>

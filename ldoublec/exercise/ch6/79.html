@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>滚动文字</title>
+    <style type="text/css">
+        hr {
+            width: 90%;
+            background-color: blanchedalmond;
+            /* border-color: blanchedalmond; */
+            /* size: 15px; */
+            height: 8px;
+            border: 0ch;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        font {
+            color: coral;
+            font-family: 仿宋;
+            font-size: 170%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        <font>
+            添加滚动文字
+        </font>
+    </h2>
+    <hr>
+    <marquee>
+        <h3>
+            <font>
+                该文字为滚动效果
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <marquee bgcolor="green" loop="2">
+        <h3>
+            <font>
+                marquee_bgcolor\loop(滚动次数)
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <!--滚动方向-->
+    <marquee direction="up">
+        <h3>
+            <font>
+                marquee_direction=up
+            </font>
+        </h3>
+    </marquee>
+    <marquee direction="down">
+        <h3 align="center">
+            <font>
+                marquee_direction=down
+            </font>
+        </h3>
+    </marquee>
+    <marquee direction="right">
+        <h3>
+            <font>
+                marquee_direction=right
+            </font>
+        </h3>
+    </marquee>
+    <marquee direction="left">
+        <h3>
+            <font>
+                marquee_direction=left
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <!-- 滚动方式 -->
+    <marquee behavior="scroll">
+        <h3>
+            <font>
+                marquee_behavior=scroll
+            </font>
+        </h3>
+    </marquee>
+    <marquee behavior="slide">
+        <h3>
+            <font>
+                marquee_behavior=slide
+            </font>
+        </h3>
+    </marquee>
+    <marquee behavior="alternate">
+        <h3>
+            <font>
+                marquee_behavior=alternate
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <!-- 滚动速度 -->
+    <marquee scrollamount="200">
+        <h3>
+            <font>
+                marquee_scrollamount=200
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="400">
+        <h3>
+            <font>
+                marquee_scrollamount=400
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="100">
+        <h3>
+            <font>
+                marquee_scrollamount=100
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="50">
+        <h3>
+            <font>
+                marquee_scrollamount=50
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="5">
+        <h3>
+            <font>
+                marquee_scrollamount=5
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <!-- 滚动延迟 -->
+    <marquee scrollamount="50" scrolldelay="200">
+        <h3>
+            <font>
+                marquee_scrolldelay=200
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="50" scrolldelay="500">
+        <h3>
+            <font>
+                marquee_scrolldelay=500
+            </font>
+        </h3>
+    </marquee>
+    <marquee scrollamount="50" scrolldelay="2000">
+        <h3>
+            <font>
+                marquee_scrolldelay=2000
+            </font>
+        </h3>
+    </marquee>
+
+    <hr>
+
+    <marquee onmouseover="this.stop()">
+        <h3>
+            <font>
+                marquee_onmouseover=this.stop()
+            </font>
+        </h3>
+    </marquee>
+    <marquee onmouseout="this.start()">
+        <h3>
+            <font>
+                marquee_onmouseout=this.start()
+            </font>
+        </h3>
+    </marquee>
+    <marquee onmouseout="this.start()" onmouseover="this.stop()">
+        <h3>
+            <font>
+                marquee_onmouseout=this.start()\onmouseover=this.stop()
+            </font>
+        </h3>
+    </marquee>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+h1 {
+  background: #9999cc;
+  color: white;
+  padding: 2%;
+  /*10px;*/
+  /* height: 50px; */
+  text-align: center;
+}
+
+.int_css {
+  border-width: 2px;
+  /* 定义边框宽度 */
+  border-style: solid;
+  /* 定义边框样式 */
+  text-align: center;
+  color: green;
+}
+
+#h1_css {
+  font-size: 28px;
+  /* 定义字体大小 */
+  font-style: bold;
+  /* 定义字体样式 */
+}

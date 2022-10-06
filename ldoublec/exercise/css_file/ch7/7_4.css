@@ -1,0 +1,29 @@
+* {
+    font-family: "楷体";
+    color: blue;
+}
+
+#li1 {
+    font-style: italic;
+    /* 斜体 */
+    font-weight: bold;
+    /* 加粗 */
+    font-size: 24px;
+    font-family: "黑体";
+}
+
+li.li2 {
+    background-color: #9999cc;
+    padding: 10px;
+    /* 在css中，padding的意思为“填充”或“内边距”，
+    用于定义元素边框与元素内容之间的空间，即元素的内边距。
+    padding是一个简写属性，它可以设置元素所有内边距的宽度，
+    或者设置各边上内边距的宽度。 */
+    letter-spacing: 50px;
+    /* 字符间距 */
+}
+
+#li3 {
+    font-size: 18px;
+    color: red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P270</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        document.write("<h1>标题1</h1>");
+        document.write("<p>这是段落1</p>");
+        document.write("<p>这是段落2</p>");
+    </script>
+
+    <script type="text/javascript">
+        var color = "re";
+        if (color == "red") {
+            document.write("颜色是红色");
+            alert("颜色就是红色");
+        }
+        else {
+            document.write("颜色非红色");
+            alert("颜色不是红色");
+        }
+    </script>
+
+    <script type="text/javascript">
+        function show_confirm() {
+            var tf = confirm("请选择按钮");
+            if (tf == true) {
+                alert("确定!");
+            }
+            else {
+                alert("取消!");
+            }
+        }
+    </script>
+    <form method="post" action="">
+        <input type="button" onclick="show_confirm()" value="显示确认框">
+    </form>
+
+    <script type="text/javascript">
+        function disp_prompt() {
+            var name = prompt("请输入你的姓名", "李大伟");
+            if (name != null && name != "") {
+                // 既不为空，也不为null
+                document.write("你好，" + name + "!");
+            }
+        }
+    </script>
+    <form method="post" action="">
+        <input type="button" onclick="disp_prompt()" value="显示提示框">
+    </form>
+</body>
+
+</html>

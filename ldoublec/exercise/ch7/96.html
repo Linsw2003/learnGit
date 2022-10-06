@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P96</title>
+    <style type="text/css">
+        p strong {
+            font-style: italic;
+            /* font-weight: bold; */
+        }
+
+        li strong {
+            font-style: italic;
+        }
+
+        .int_css {
+            border-width: 2px;
+            /* 定义边框宽度 */
+            border-style: solid;
+            /* 定义边框样式 */
+            text-align: center;
+            color: red;
+        }
+
+        #h1_css {
+            font-size: 28px;
+            /* 定义字体大小 */
+            font-style: italic;
+            /* 定义字体样式 */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        派生选择器:
+    </h1>
+    <p>
+        <strong>
+            粗体加斜体(派生选择器p_strong)
+        </strong>
+    </p>
+    <p>
+        <i>
+            斜体
+        </i>
+    </p>
+    <ul>
+        <li>
+            <Strong>
+                粗体加斜体(派生选择器li_strong)
+            </Strong>
+        </li>
+    </ul>
+
+    <h1>
+        内联样式表:
+    </h1>
+    <p>
+        <strong style="font-size:20px;font-style:normal;">
+            p_strong_style:size=20;仅粗体(该style样式优先于其他所有样式)
+        </strong>
+    </p>
+
+    <h1>
+        内部样式表:
+    </h1>
+    <h5 class="int_css">
+        这个h5标题使用类样式表
+    </h5>
+    <h5 id="h1_css">
+        这个h5标题使用ID样式表
+    </h5>
+    <h5>
+        这个h5标题不使用样式
+    </h5>
+</body>
+
+</html>
